@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: IFtask2, Configuration: Debug Any CPU ------
+1>IFtask2 -> C:\Dev\programming-basics\condition-tasks\IFtask2\IFtask2\bin\Debug\netcoreapp2.1\IFtask2.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
