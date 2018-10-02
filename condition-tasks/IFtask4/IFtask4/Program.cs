@@ -21,11 +21,35 @@ namespace IFtask4
             userInput = Console.ReadLine();
             int z = int.Parse(userInput);
 
-            
-            Console.WriteLine($"syötit luvut {x} - {y} - {z}");
+            if (x > y)
+            {
+                if (y > z)
+                    Console.WriteLine($"Luku {y}, {z}, {x}");
+                else
+                {
+                    if (z < x)
+                        Console.WriteLine($"Luku {y}, {z}, {x}");
+                    else
+                        Console.WriteLine($"Luku {y}, {x}, {z}");
+                }
+            }
+            else
+            {
+                if (x > z)
+                    Console.WriteLine($"Luku {z}, {x}, {y}");
+                else
+                {
+                    if (y < z)
+                        Console.WriteLine($"Luku {x}, {y}, {z}");
+                    else
+                        Console.WriteLine($"Luku {x}, {z}, {y}");
 
-            
-            
+
+
+
+
+                }
+            }
         }
     }
 }
